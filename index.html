@@ -10,89 +10,7 @@
   <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-chrome-192x192.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon/android-chrome-512x512.png">
   <link rel="manifest" href="/assets/favicon/site.webmanifest">
-  <style>
-    :root {
-      --primary: #e05d5d;
-      --bg-gradient: linear-gradient(to bottom right, #fff6f6, #fef7ec);
-      --font-main: 'Segoe UI', 'Helvetica Neue', sans-serif;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: var(--font-main);
-      background: var(--bg-gradient);
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 20px;
-    }
-
-    .card {
-      background: white;
-      border-radius: 20px;
-      padding: 3rem;
-      max-width: 700px;
-      text-align: center;
-      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
-      animation: fadeIn 1s ease-out;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .logo {
-      max-width: 100px;
-      margin-bottom: 1.5rem;
-      border-radius: 50%;
-    }
-
-    h1 {
-      font-size: 2.8rem;
-      color: var(--primary);
-      margin-bottom: 0.5rem;
-    }
-
-    h2 {
-      font-size: 1.4rem;
-      color: #555;
-      margin-bottom: 1.5rem;
-    }
-
-    p {
-      font-size: 1.05rem;
-      line-height: 1.6;
-      color: #444;
-    }
-
-    .footer {
-      margin-top: 2rem;
-      font-size: 0.9rem;
-      color: #aaa;
-    }
-
-    @media (max-width: 600px) {
-      .card {
-        padding: 2rem;
-      }
-
-      h1 {
-        font-size: 2rem;
-      }
-
-      h2 {
-        font-size: 1.2rem;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="/style/default.css">
 </head>
 <body>
   <div class="card">
@@ -103,6 +21,7 @@
       Women's health can be complex and misunderstood. Symptomaze uses technology to decode symptoms and deliver probability-based insights — empowering women to make informed decisions with clarity and confidence.
     </p>
     <p class="footer">Coming Soon • 2025</p>
+    <a href="demo.html" class="demo-button">Try a Demo</a>
   </div>
 </body>
 </html>
